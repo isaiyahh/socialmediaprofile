@@ -1,26 +1,106 @@
 @font-face {
-    font-family: Inter;
-    src: url(/assets/fonts/static/Inter-Regular.ttf);
-  }
+  font-family: Inter;
+  src: url(/assets/fonts/static/Inter-Regular.ttf);
+}
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+ 
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+ 
+.header {
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 12%);
+}
+ 
+.social-links {
+  list-style-type: none;
+  text-align: center;
+}
+ 
+.social-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+ 
+img {
+  border-radius: 50%;
+  display: block;
+  margin-inline: auto;
+  margin-top: 2rem;
+  margin-bottom: 1.25rem;
+  height: 148px;
+  width: 148px;
+}
+
+.social-links li { 
+  list-style-type: none;
+  text-align: center;
+  width: 304px;
+  height: 45px;
+  margin: 1rem 0rem;
+}
+
+.social-links li a {
+  background-color: #333333;
+  text-decoration: none;
   
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Inter;
-  }
+  color: white;
+  width: 304px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-weight: 700;
+  transition: all .2s ease-in;
+}
+
+li a:hover {
+  background-color: green;
+  color: black
+
+}
+
+ h1 {
+ font-size: 24px;
+ text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: .5rem;
+  color:white
+ }
+
+ h2 {
+  font-size: 14px;
+  text-align: center;
+  margin-top: .5rem;
+  color: hsl(80, 69%, 48%)
+ }
+
+ p {
+  font-size: 14px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: white;
   
+ }
+/*
   ul {
     list-style-type: none;
-  }
-  
-  body {
-    background-color: hsl(0, 0%, 8%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
   }
   
   .container {
@@ -93,4 +173,6 @@
   .attribution a {
     color: hsl(228, 45%, 44%);
   }
+   */
+ 
   
